@@ -11,5 +11,8 @@ spec:
   ports:
     - port: 3000
       targetPort: 3000
+      
+  command: [ "sleep" ]
+  args: [ "infinity" ]
 
   type: LoadBalancer
